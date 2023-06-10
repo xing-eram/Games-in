@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <title>PELOT-in</title>
+  <link rel="stylesheet" href="styles.css">
+
+
+
+
+  <div id="start-screen">
+    <h1>PELOT-in Game</h1>
+    <button id="start-button">Start Game</button>
+  </div>
+
+  <div id="game-screen" style="display: none;">
+
+
+
+
+
+
+
+    
+
+  <style>
+    #centered-text {
+      display: none;
+      text-align: center;
+      font-size: 48px;
+      color: #E8191F;
+      font-family: Arial, sans-serif; 
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+  
+
+
+</head>
+<body>
+
+  <div id="centered-text">
+    <h1>Super!</h1>
+  </div>
+
+  <div class="container">
+    <canvas id="c" 
+    width="640" 
+    height="480" 
+    style="background:#ebb6f1"></canvas>
+  </div>
+</div>
+
+
+
+  <script>
+    function toggleVisibility() {
+      var centeredText = document.getElementById("centered-text");
+      if (centeredText.style.display === "none") {
+        centeredText.innerHTML = "Super!";
+        centeredText.style.display = "block";
+      } else {
+        centeredText.innerHTML = "WOW!";
+        centeredText.style.display = "block";
+        centeredText.style.left = "auto"; 
+        centeredText.style.right = "0"; 
+      setTimeout(function() {
+        centeredText.style.display = "none";
+        centeredText.style.right = "auto"; 
+      }, 2500); 
+    }
+
+  }
+
+    setTimeout(function() {
+      toggleVisibility();
+      setInterval(toggleVisibility, 12000); 
+    }, 11000); 
+  </script>
+  
+
+
+
+  
+  <script src="game.js"></script>
+
+</body>
+</html>

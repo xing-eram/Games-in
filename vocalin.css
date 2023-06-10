@@ -1,0 +1,161 @@
+.container {
+    width: 900px;
+    height: 100vh;
+    margin: 2rem auto;
+}
+
+.contenedor {
+    width: 600px;
+    height: 370px;
+    position: relative;
+    border: 1px solid #e7e6e6c2;
+    margin: 3rem auto;
+}
+
+.bloque {
+    height: 20px;
+    width: 100px;
+    position: absolute;
+}
+
+.bloque:nth-child(1) {
+    background-color: #2131CD;
+}
+
+.bloque:nth-child(2) {
+    background-color: yellow;
+}
+
+.bloque:nth-child(3) {
+    background-color: green;
+}
+
+.bloque:nth-child(4) {
+    background-color: red;
+}
+
+.bloque:nth-child(5) {
+    background-color: #740EBB;
+}
+.bloque:nth-child(6) {
+    background-color: #2131CD;
+}
+
+.bloque:nth-child(7) {
+    background-color: green;
+}
+
+.bloque:nth-child(8) {
+    background-color: red;
+}
+
+.bloque:nth-child(9) {
+    background-color: #740EBB;
+}
+
+.bloque:nth-child(10) {
+    background-color: yellow;
+}
+.bloque:nth-child(11) {
+    background-color: green;
+}
+
+.bloque:nth-child(12) {
+    background-color: #740EBB;
+}
+
+.bloque:nth-child(13) {
+    background-color: #2131CD;
+}
+
+.bloque:nth-child(14) {
+    background-color: yellow;
+}
+
+.bloque:nth-child(15) {
+    background-color: red;
+}
+.bloque:nth-child(16) {
+    background-color: green;
+}
+
+.bloque:nth-child(17) {
+    background-color: yellow;
+}
+
+.bloque:nth-child(18) {
+    background-color: #2131CD;
+}
+
+.bloque:nth-child(19) {
+    background-color: green;
+}
+
+.bloque:nth-child(20) {
+    background-color: red;
+}
+
+
+.usuario {
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    background-color: rgb(255, 254, 254);
+}
+
+.bola {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+body {
+    background-image: url("https://i.ibb.co/k10VgPp/YO.png");
+  }
+
+  #puntos {
+    font-size: 25.5px;
+    font-weight: bold;
+    position: right;
+    background-color: rgba(220, 205, 224, 0.765);
+  }
+  
+
+
+
+
+
+  
+  body {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  #start-screen {
+    text-align: center;
+  }
+  
+  h1 {
+    color: #fff;
+    font-size: 36px;
+  }
+  
+  button {
+    background-color: #af4c96;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
